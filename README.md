@@ -20,3 +20,6 @@ I have been assigned to use HaarCascade Classifier but since it has some drawbac
 
 Although dlib pipeline doesn't performed well on validation data but didn't got the time to test it robustly.
 
+4. **Model4** - Haarcascade_+_CNN_+_Triplet_Loss
+
+In this model we have used triplet loss instead of softmax function because it is a way to learn good embeddings for each face of the dataset. In the sence of embedded spaceing, faces from the same person should be close together and form well separated clusters. 
